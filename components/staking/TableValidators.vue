@@ -61,7 +61,7 @@ export default {
       const orderedValidators = orderBy(
         this.validators.map((validator) => ({
           ...validator,
-          smallName: validator.name ? validator.name.toLowerCase() : '',
+          smallName: validator.name,
         })),
         [this.sort.property],
         [this.sort.order]

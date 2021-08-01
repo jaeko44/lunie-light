@@ -1,5 +1,5 @@
 <template>
-  <div class="status" :class="label.toLowerCase()">
+  <div class="status" :class="label">
     {{ label }}
   </div>
 </template>

@@ -83,7 +83,7 @@ export default {
       return this.navigator.platform.includes('Win')
     },
     isChrome() {
-      const ua = navigator.userAgent.toLowerCase()
+      const ua = navigator.userAgent.ToString().toLowerCase()
       return /chrome|crios/.test(ua) && !/edge|opr\//.test(ua)
     },
     isLinux() {
