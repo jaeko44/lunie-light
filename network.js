@@ -1,11 +1,10 @@
 export default {
   id: 'virtengine', // DEPRECATE, only used for Lunie extension, NOT CHAIN ID
   name: 'VirtEngine Network',
-  description:
-    'VirtEngine is a decentralized Cloud Marketplace.',
+  description: 'VirtEngine is a decentralized Cloud Marketplace.',
   logo: `logo.svg`,
   website: 'https://virtengine.com',
-  apiURL: 'http://3.24.151.42:1317', // use `npx lcp --proxyUrl http://34.123.30.100:1317`
+  apiURL: 'http://localhost:8010/proxy', // use `npx lcp --proxyUrl http://34.123.30.100:1317`
   rpcURL: 'ws://3.24.151.42:26657',
   stakingDenom: 'VE',
   coinLookup: [
